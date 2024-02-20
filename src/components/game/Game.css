@@ -1,0 +1,39 @@
+.word-container{
+    display: flex;
+    margin: 24px;
+    font-size: 22px;
+    gap: 4px;
+}
+
+.letter, .blank-square {
+    width: 16px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.letter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.letter-container p{
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.general-input{
+    color: black;
+    padding: 8px 4px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+};
